@@ -1,5 +1,5 @@
 # Maze Life
-Allows user to create a grid to simulate Conway's "Game of Life" and then use the final grid generation as a maze. An "explorer" is placed in the top left corner of the maze where it attempts to make its way to the "gold" in the bottom right corner.
+Allows user to create a grid to simulate Conway's "Game of Life" and then use the final grid generation as a maze. An "explorer" is placed in the top left corner of the maze where it attempts to make its way to the "gold" in the bottom right corner. An implementation of a generic stack class (FaithsStack) is used to track and retrace the Explorer's movements.
 
 # Input
 User can enter "v" for verbose output (show every step) or "s" for silent output (show only first and final steps). User inputs how many generations they want to be simulated, the dimensions of the grid, and which cells are empty or occupied (1 = occupied, 0 = empty).
